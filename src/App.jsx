@@ -7,10 +7,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
 import Details from './pages/details/Details';
-import SearchResult from './pages/searchResult/searchResult';
+import SearchResult from './pages/searchResult/SearchResult';
 import Explore from './pages/explore/Explore';
-import Header from './components/header/header';
-import PageNotFound from './pages/404/pageNotFound';
+import Header from './components/header/Header';
+import PageNotFound from './pages/404/PageNotFound';
 
 
 
