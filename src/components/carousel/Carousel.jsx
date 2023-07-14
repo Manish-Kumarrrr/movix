@@ -56,7 +56,7 @@ const Carousel = ({ data, loading ,endpoint ,title}) => {
     <div className="carousel">
       <ContentWrapper>
         {!!title && <div className="carouselTitle">{title}</div>}
-        {one && <BsFillArrowLeftCircleFill
+        {!!one && <BsFillArrowLeftCircleFill
           className="carouselLeftNav arrow"
           onClick={() => navigation("left")} />}
 
